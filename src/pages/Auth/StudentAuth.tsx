@@ -97,7 +97,9 @@ const StudentAuth: React.FC = () => {
                 transform: `translateY(${scrollY * 0.03}px)`,
               }}
             >
-              {isLogin ? 'Welcome back! Sign in to your account' : 'Join our community - Create your student account'}
+              <span className="text-gray-800 dark:text-gray-300">
+                {isLogin ? 'Welcome back! Sign in to your account' : 'Join our community - Create your student account'}
+              </span>
             </p>
           </div>
 
