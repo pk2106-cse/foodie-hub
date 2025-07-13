@@ -83,11 +83,11 @@ const StaffAuth: React.FC = () => {
               className="flex items-center justify-center mb-6"
             >
               <div className="w-16 h-16 glass-morphism rounded-xl flex items-center justify-center mr-4 hover:scale-110 transition-all duration-500 group relative overflow-hidden" style={{ boxShadow: '0 0 20px rgba(16, 185, 129, 0.4)' }}>
-                <ChefHat className="w-8 h-8 text-white group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
+                <ChefHat className="w-8 h-8 text-gray-800 dark:text-white group-hover:scale-110 group-hover:rotate-12 transition-all duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <Award className="absolute top-1 right-1 w-3 h-3 text-emerald-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse" />
               </div>
-              <span className="text-3xl font-bold text-white">Staff Portal</span>
+              <span className="text-3xl font-bold text-gray-800 dark:text-white">Staff Portal</span>
             </div>
             
             <p 
