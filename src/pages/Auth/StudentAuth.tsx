@@ -85,10 +85,10 @@ const StudentAuth: React.FC = () => {
               className="flex items-center justify-center mb-6"
             >
               <div className="w-16 h-16 glass-morphism rounded-xl flex items-center justify-center mr-4 hover:scale-110 transition-all duration-500 group relative overflow-hidden" style={{ boxShadow: '0 0 20px rgba(99, 102, 241, 0.3)' }}>
-                <Users className="w-8 h-8 text-white group-hover:scale-110 transition-transform duration-300" />
+                <Users className="w-8 h-8 text-gray-800 dark:text-white group-hover:scale-110 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
-              <span className="text-3xl font-bold text-white">Student Portal</span>
+              <span className="text-3xl font-bold text-gray-800 dark:text-white">Student Portal</span>
             </div>
             
             <p 
